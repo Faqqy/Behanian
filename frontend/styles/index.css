@@ -40,7 +40,7 @@ header {
 }
 
 .box_header {
-  background: url(/\ Images/header.hui.jpg);
+  background: url(/frontend/images/header.hui.jpg);
   background-size:cover;
   background-position: 1;
   background-repeat: no-repeat;
