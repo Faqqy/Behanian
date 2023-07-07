@@ -35,7 +35,6 @@ header {
 
 .flex {
   display: flex;
-  /* height: 100%; */
   flex-direction: column;
 }
 
@@ -150,7 +149,6 @@ width: 24px;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-
 }
 
 .banner {
@@ -185,9 +183,9 @@ footer {
   flex: 0 0 auto;
   justify-content: center;
   background: #333;
-  margin-top: auto;
+  margin-top: 3%;
   width: 100%;
-  padding: 0%;
+  padding: 0;
 
 }
 

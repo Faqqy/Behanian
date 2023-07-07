@@ -35,12 +35,11 @@ header {
 
 .flex {
   display: flex;
-  /* height: 100%; */
   flex-direction: column;
 }
 
 .box_header {
-  background: url(/frontend/images/header.hui.jpg);
+  background: url(/frontend/images/header.jpg);
   background-size:cover;
   background-position: 1;
   background-repeat: no-repeat;
@@ -187,7 +186,6 @@ footer {
 
 }
 
-
 .social-footer ul {
   padding: 0;
   margin: 17.5px;
@@ -248,8 +246,12 @@ footer {
   .box_header a {
     width: 100%;
   }
+  .flex {
+    width: 100%;
+  }
   .flex1 {
     display: flex;
+    flex-wrap: wrap;
   }
   .container {
     margin: 15px;
@@ -275,40 +277,25 @@ footer {
   .main-content {
     display: flex;
     width: 100%;
+    flex-direction: column;
   }
   footer {
     width: 100%;  
   }
-  .name{
-  width: 62%;
-  margin-left: 10px; 
+  .ava {
+    width: 50%;
+    height: 50%;
+  }
+  .name {
+    width: 50%;
+    height: auto;
   }
   .name h2 {
-    margin-top: 10px;
-    font-size: 40px;
+    font-size: 18px;
   }
-  .ava {
-  margin-top: 10px;
-  padding: auto;
-  width: 252px;
-  height: 252px;  
+  .name p {
+    font-size: 16px;
   }
-  .ava img {
-  width: 252px;
-  height: 252px;
-  }
-  button{
-  margin-top: 20px;
-  margin-left: 50px;
-  }
-  /* .popup {
-
-    display: flex;
-    height: 330px;
-    width: 560px;
-    background-color: white;
-    
-  } */
   }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
 
@@ -338,48 +325,5 @@ footer {
   display: flex;
   flex-wrap: wrap;
  }
- 
- /* .popup-fade {
-    display: none;
-  }
-
- .popup-fade:before {
-	content: '';
-	background: #000;
-	position: fixed; 
-	left: 0;
-	top: 0;
-	width: 100%; 
-	height: 100%;
-	opacity: 0.7;
-	z-index: 9999;
-}
-.popup {
-	position: fixed;
-  margin:auto;
-  left: 0;
-  right: 0;
-  bottom: 25%;
-  height: 360px;
-	width: 560px;	
-	background: #fff;
-	border-radius: 12px; 
-	z-index: 99999;
-	opacity: 1;	
-}
-.popup-close {
-  overflow: hidden;
-	position: absolute;
-	top: 10px;
-	right: 10px;
-  text-decoration: none;
-  font-size: 15px;
-}
-.popup-open {
-  display: block;
-  width: 100%;
-  height: 100%;}
-
-} */
 
 }
